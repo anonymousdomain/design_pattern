@@ -1,0 +1,4 @@
+# .gitignore 
+/vendor/
+*.log 
+.DS_Store

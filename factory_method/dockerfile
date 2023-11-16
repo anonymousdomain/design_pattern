@@ -1,0 +1,15 @@
+FROM php:8.2-cli 
+
+WORKDIR /app
+
+COPY . /app
+
+
+RUN apt-get update && apt-get install -y \
+git \
+&& rm -rf /var/lib/apt/lists/*
+
+
+CMD ["php","script.php"]
+
+
