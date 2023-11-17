@@ -10,6 +10,6 @@ git \
 && rm -rf /var/lib/apt/lists/*
 
 
-CMD ["php","script.php"]
+CMD ["php","index.php"]
 
 
