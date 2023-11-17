@@ -1,0 +1,10 @@
+version: '3'
+services:
+  factory-method:
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - .:/factory_method
+    ports:
+      - "8080:80"
