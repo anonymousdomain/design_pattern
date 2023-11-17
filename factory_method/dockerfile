@@ -1,8 +1,8 @@
 FROM php:8.2-cli 
 
-WORKDIR /app
+WORKDIR /factory_method/
 
-COPY . /app
+COPY . /factory_method/
 
 
 RUN apt-get update && apt-get install -y \
